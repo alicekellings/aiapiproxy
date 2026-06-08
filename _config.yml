@@ -1,0 +1,26 @@
+title: AI API Proxy
+description: AI API 中转站、OpenAI-compatible API、Codex 中转站、GPT 中转站与 AI 编程工具接入教程。
+url: "https://alicekellings.github.io"
+baseurl: "/aiapiproxy"
+lang: zh-CN
+timezone: Asia/Shanghai
+permalink: /:year/:month/:day/:title/
+
+author:
+  name: AI API Proxy
+  url: https://api.wappkit.com
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - .gitignore

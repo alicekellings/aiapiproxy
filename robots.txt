@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alicekellings.github.io/aiapiproxy/sitemap.xml

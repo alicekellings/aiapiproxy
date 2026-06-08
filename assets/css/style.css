@@ -1,0 +1,152 @@
+:root {
+  --ink: #172033;
+  --muted: #5d6b82;
+  --line: #d9e0ea;
+  --paper: #ffffff;
+  --soft: #f5f7fb;
+  --brand: #0f766e;
+  --brand-dark: #0b5d57;
+  --code: #f0f4f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--soft);
+  font-family: ui-serif, "Noto Serif SC", "Songti SC", Georgia, serif;
+  line-height: 1.75;
+}
+
+a {
+  color: var(--brand-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.wrap {
+  width: min(920px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 68px;
+  gap: 20px;
+}
+
+.brand {
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 18px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px;
+}
+
+.nav-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.content {
+  margin: 36px auto 64px;
+  padding: 42px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+}
+
+h1,
+h2,
+h3 {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.28;
+}
+
+h1 {
+  margin: 0 0 22px;
+  font-size: clamp(30px, 5vw, 48px);
+}
+
+h2 {
+  margin-top: 42px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-size: 26px;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+p,
+li {
+  font-size: 17px;
+}
+
+code {
+  padding: 2px 6px;
+  border-radius: 5px;
+  background: var(--code);
+  font-family: "Cascadia Code", Consolas, monospace;
+  font-size: 0.92em;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 18px;
+  border-radius: 8px;
+  background: #111827;
+  color: #e5edf8;
+}
+
+pre code {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+}
+
+.post-meta {
+  margin: -10px 0 28px;
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px;
+}
+
+.site-footer {
+  padding: 26px 0 40px;
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 18px 0;
+  }
+
+  .content {
+    margin-top: 20px;
+    padding: 24px;
+  }
+}
+
