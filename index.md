@@ -17,6 +17,7 @@ description: API 中转站、AI 中转站、GPT 中转站、Codex 中转站和 O
 
 ## 最新文章
 
+- [API 中转站倍率怎么算：充值倍率、分组倍率和最终价格怎么看]({{ site.baseurl }}/2026/06/10/api-proxy-rate-multiplier-guide/)
 - [Cursor / Cline 如何配置 AI API 中转站 base_url]({{ site.baseurl }}/2026/06/09/cursor-cline-api-proxy-base-url-guide/)
 - [AI API 中转站新手指南：怎么判断一个中转站是否适合开发者使用]({{ site.baseurl }}/2026/06/08/ai-api-transit-station-beginner-guide/)
 - [Codex 中转站怎么选：价格之外，更应该看额度、日志和 base_url 接入]({{ site.baseurl }}/2026/06/08/codex-api-transit-station-guide/)
