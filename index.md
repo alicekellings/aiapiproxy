@@ -22,6 +22,11 @@ description: API 中转站、AI 中转站、GPT 中转站、Codex 中转站和 O
 - [AI API 中转站新手指南：怎么判断一个中转站是否适合开发者使用]({{ site.baseurl }}/2026/06/08/ai-api-transit-station-beginner-guide/)
 - [Codex 中转站怎么选：价格之外，更应该看额度、日志和 base_url 接入]({{ site.baseurl }}/2026/06/08/codex-api-transit-station-guide/)
 
+## 交流入口
+
+- Telegram 公告频道：[https://t.me/aiapiproxy](https://t.me/aiapiproxy)
+- Telegram Support 群：[https://t.me/+CgH4CkJMw4VhYzNl](https://t.me/+CgH4CkJMw4VhYzNl)
+
 ## 常见关键词
 
 AI中转站、API中转站、GPT中转站、Codex中转站、Token中转站、OpenAI中转站、API中转站推荐、中转站测评、中转站检测。
